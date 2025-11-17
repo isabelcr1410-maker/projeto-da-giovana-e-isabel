@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_forever" id="5I+:+k4He_(Q!WbZX[`=" x="0" y="0"><statement name="HANDLER"><block type="music_playable_play" id="2NXveI}Q=jnFErvuxrW;"><field name="playbackMode">music.PlaybackMode.InBackground</field><value name="toPlay"><shadow type="music_tone_playable" id="I-,rJ`yN1hizPB#g+,8d"><value name="note"><shadow type="device_note" id="eIkSrL5}Zx8@@b$g8WoF"><field name="name">784</field></shadow></value><value name="duration"><shadow type="device_beat" id="QSh|zrK@]{Xry!LnmIOU"><field name="fraction">BeatFraction.Half</field></shadow></value></shadow></value><next><block type="music_playable_play" id="FQh/4]$lE7jc^T@1o4j]"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="FXWR`GLWNU/Exy8Fi6l["><value name="melody"><shadow type="melody_editor" id="(FDh~fNO4/1~ItHAsi#N"><field name="melody">"- F A B A G - - "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="m*L_AxT3d?Eg6Rsn`,wJ"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow></value><next><block type="device_show_leds" id="_k/Cw~T}gE8.V1gp^ArY"><field name="LEDS">`
+        . # . # . 
+        # # # # # 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="DgOl^LKS/+yMAt9+ySdH"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        . . # . . 
+        . . # . . 
+        . # . # .
+        `</field></block></next></block></next></block></next></block></statement></block></xml>
